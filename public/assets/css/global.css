@@ -1,0 +1,77 @@
+html,
+body
+{
+    height: 100%;
+}
+
+body
+{
+    padding-top: 3.5rem;
+}
+
+a.no-hover,
+a.no-hover:hover
+{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.bg-0
+{
+    background-color: transparent !important;
+}
+
+#dashboardTab
+{
+    overflow-y: auto;
+    height: 100%;
+}
+
+@media (max-width: 768px)
+{
+    #dashboardTab
+    {
+        overflow-y: hidden;
+        height: auto;
+    }
+}
+
+.avatar-s
+{
+    width: 25px;
+    height: 25px;
+}
+
+.btn-facebook
+{
+    background: #3b5998;
+}
+
+.btn-twitter
+{
+    background: #00aced;
+}
+
+#place_input
+{
+    display: none;
+}
+
+#map_canvas #place_input
+{
+    display: inline;
+}
+
+#map_canvas label
+{
+    margin: 0 !important;
+}
+
+.starrr a
+{
+    font-size: 35px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #868e96;
+    text-decoration: none;
+}
